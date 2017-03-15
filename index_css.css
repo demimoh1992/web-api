@@ -1,0 +1,392 @@
+/* BODY of the document */
+body {
+	font-family: "Cambria";
+	margin: 0;
+	padding: 0;
+}
+
+/* SHOW USERNAME */
+#loggedin-content {
+	width: 20%;
+	float: left;
+	background: #0077aa;
+	height: 40px;
+	color: #FFFFFF;
+	padding-bottom: 10px;
+}
+
+#loggedin-content p {
+	margin-top: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	padding-left: 20px;
+}
+
+#loggedin-content a {
+	margin-top: 0;
+	padding-top: 0;
+	padding-left: 20px;
+}
+
+
+/* MAIN NAVIGATION */
+nav {
+	width: 80%;
+	float: right;
+	background: #0077aa;
+	height: 40px;
+	padding-top: 10px;
+	text-align: right;
+}
+
+nav a {
+	padding-left: 10px;
+	font-size: 1.2em;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+
+/* MAIN LAYOUT */
+main {
+	position: relative;
+	width: 100%;
+}
+
+/* LEFT BAR */
+#leftbar {
+	width: 20%;
+	float: left;
+	opacity: 0.8;
+}
+
+#secondnav ul {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+}
+
+#secondnav li {
+	width: 90%;
+	display: inline-block;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 10px;
+	background: #0077aa;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+}
+
+#secondnav li:hover {
+	background: #55ccff;
+}
+
+#secondnav li a {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 1.1em;
+}
+
+/* LEFTBAR - WEATHER */
+
+#weather-wrapper {
+	width: 90%;
+	margin: auto auto;
+}
+
+#weather-wrapper #weather {
+	width: 91%;
+	display: inline-block;
+	padding: 0 10px 0 10px;
+	background: #0077aa;
+	border-radius: 5px;
+}
+
+#weather-wrapper #weather h2 {
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#weather-wrapper #weather .weather-mini {
+	width: 98%;
+	float: left;
+	background: #FFFFFF;
+	opacity: 0.75;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+}
+
+#weather-wrapper #weather .weather-mini #weather-icon {
+	width: 30%;
+	height: 70px;
+	float: left;
+}
+
+#weather-wrapper #weather .weather-mini #temperature {
+	width: 60%;
+	height: 50px;
+	float: left;
+	color: #0077aa;
+	font-weight: bold;
+	font-size: 1.3em;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+
+/* MAIN CONTENT  */
+#maincont {
+	width: 80%;
+	float: left;
+	min-height: 800px;
+}
+
+/* HOME PAGE */
+/* SLIDING PICS */
+#maincont .carousel {
+	width: 100%;
+}
+
+#maincont .carousel .carousel-img {
+	padding: 10px;
+}
+
+button {
+	cursor: pointer;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+}
+
+button:hover {
+	background: #55ccff;
+}
+
+#maincont #carousel-button {
+	width: 100%;
+	text-align: center;
+}
+
+#maincont #carousel-button button {
+	background: #0077aa;
+	color: #FFFFFF;
+	border: #0077aa;
+	border-radius: 5px;
+	padding: 2px 10px 2px 10px;
+}
+
+#maincont #carousel-button button:hover {
+	background: #55ccff;
+}
+
+/* MAIN CONTENTS INFORMATION */
+#maincont header {
+	color: #0077aa;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#maincont article .index-intro {
+	width: 100%;
+	padding: 5px;
+}
+
+#membership-wrapper {
+	width: 100%;
+}
+
+.membership {
+	width: 33%;
+	float: left;
+	padding-bottom: 15px;
+}
+
+.membership button {
+	width: 240px;
+	padding: 47px;
+	border-radius: 12px;
+}
+
+#maincont h1 {
+	padding-top: 25px;
+	margin-top: 0;
+}
+
+/* LOGIN FORM */
+#maincont .loginform-wrapper {
+	width: 100%;
+}
+
+#maincont .loginform {
+	width: 95%;
+	background: #0077aa;
+	min-height: 360px;
+	border-radius: 5px;
+	padding: 15px;
+}
+
+#maincont .loginform .form {
+	padding-left: 10px;
+	padding-top: 20px;
+}
+
+#maincont .loginform .form label {
+	text-transform: capitalize;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 1.4em;
+	margin-top: 1%;
+}
+
+.login-input {
+	margin-top: 1%;
+	margin-bottom: 2%;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 1.2em;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+}
+
+input:focus {
+	box-shadow: 0 0 5px #FFCCFF;
+	border: thin solid #ff88bb;
+}
+
+.formsubmit {
+	background: #FFFFFF;
+	color: #0077aa;
+	font-weight: bold;
+	padding: 2px 5px 2px 5px;
+	border-radius: 5px;
+}
+
+/* USER PAGE */
+#maincont #main-left {
+	width: 40%;
+	float: left;
+	position: fixed;
+	text-align: center;
+}
+
+#googleMap {
+	margin: 0 auto;
+	width:480px;
+	height:380px;
+	border-radius:5px;
+}
+
+#maincont #main-right {
+	width: 50%;
+	float: right;
+}
+
+.userpage-article {
+	width: 100%;
+	padding-top: 20px;
+}
+
+.userpage-article header {
+	font-size: 1.3em;
+	padding-bottom: 10px;
+}
+
+.userpage-article textarea {
+	border-radius: 5px;
+	background: #0077aa;
+	color: #FFFFFF;
+}
+
+.userpage-article .tweet-button {
+	border-radius: 5px;
+	background: #0077aa;
+	color: #FFFFFF;
+	font-weight: bold;
+	padding: 8px;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+}
+
+.userpage-article .tweet-button:hover {
+	background: #55ccff;
+}
+
+
+/* GOOGLE MAP */
+#maincont div#googleMap {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+/* TABLE STYLING */
+#maincont div table {
+	background: #0077aa;
+}
+
+#maincont div table th {
+	font-size: 1.3em;
+	color: #FFFFFF;
+	background-color: #0077aa;
+	padding: 10px;
+	text-align: left;
+}
+
+#maincont div table td {
+	font-size: 1em;
+	padding: 10px;
+}
+
+#maincont div table td a {
+	text-decoration: none;
+	color: #000000;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+}
+
+#maincont div table tr:nth-child(even) {
+	background: #FFFFFF;
+}
+
+#maincont div table tr:nth-child(odd) {
+	background: #55ccff;
+}
+
+#maincont div table tr:hover {
+	background-color: #06CBB1;
+}
+
+#maincont div table tr a:hover{
+	color: #FFFFFF;
+}
+
+
+/* FOOTER */
+#footer {
+	width: 100%;
+	background-color: #0077aa;
+	height: 25px;
+	float: left;
+}
+
+#footer #footer-copyright {
+	text-align: center;
+	color: #FFFFFF;
+}
+
+
+
